@@ -131,7 +131,7 @@ export default {
         //   data: ['expected', 'actual']
         // },
         series
-      })
+      }, true)
     },
     initChart() {
       this.chart = echarts.init(this.$el, 'macarons')
